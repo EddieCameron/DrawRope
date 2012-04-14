@@ -23,6 +23,7 @@ public class DrawRope : MonoBehaviour
 	void Awake()
 	{
 		lineR = GetComponent<LineRenderer>();
+		RedrawRope();
 	}
 
 	public void RedrawRope()
